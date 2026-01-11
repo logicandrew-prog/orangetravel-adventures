@@ -21,14 +21,14 @@ export const Header = () => {
   const location = useLocation();
   return <header className="fixed top-0 left-0 right-0 z-50 bg-deep-blue/95 backdrop-blur-md border-b border-deep-blue-light/20">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-20">
+        <div className="h-20 mt-[10px] mb-[10px] flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-1 group">
             <div className="relative flex items-baseline">
-              <span className="text-2xl font-heading font-bold text-primary-foreground">
+              <span className="font-heading font-bold text-primary-foreground text-4xl">
                 orange
               </span>
-              <span className="text-2xl font-heading font-bold text-[#ff8c00]">
+              <span className="font-heading font-bold text-[#ff8c00] text-4xl">
                 blue
               </span>
               <span className="font-script text-cream-travel ml-2 text-pink-600 text-2xl font-semibold">
@@ -39,7 +39,7 @@ export const Header = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="hidden items-center gap-8 md:flex md:items-center md:justify-start">
             {navLinks.map(link => <Link key={link.href} to={link.href} className={`text-sm font-medium transition-colors duration-300 relative group ${location.pathname === link.href ? "text-secondary" : "text-primary-foreground/80 hover:text-primary-foreground"}`}>
                 {link.label}
                 <span className={`absolute -bottom-1 left-0 h-0.5 bg-secondary transition-all duration-300 ${location.pathname === link.href ? "w-full" : "w-0 group-hover:w-full"}`} />
