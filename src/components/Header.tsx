@@ -31,7 +31,7 @@ export const Header = () => {
               <span className="font-heading font-bold text-5xl text-primary-foreground">
                 blue
               </span>
-              <span className="font-script text-cream-travel ml-2 font-semibold mx-0 pb-[10px] mb-0 text-3xl text-cyan-300">
+              <span className="font-script text-cream-travel ml-2 font-semibold mx-0 pb-[10px] mb-0 text-sky-300 text-2xl">
                 Travel
               </span>
               <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300" />
