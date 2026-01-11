@@ -48,7 +48,7 @@ const destinations = [{
 const Tours = () => {
   return <Layout>
       {/* Hero */}
-      <section className="py-20 bg-deep-blue bg-cyan-200 text-primary pt-[60px] pb-[60px]">
+      <section className="py-20 bg-deep-blue bg-cyan-200 text-primary pt-[60px] pb-[50px]">
         <div className="container mx-auto px-4">
           <motion.div initial={{
           opacity: 0,
@@ -68,7 +68,7 @@ const Tours = () => {
       </section>
 
       {/* Destinations Grid */}
-      <section className="py-20 bg-background pb-[60px] pt-[60px]">
+      <section className="py-20 bg-background pt-[60px] pb-[50px]">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {destinations.map((destination, index) => <DestinationCard key={destination.href} {...destination} index={index} />)}
