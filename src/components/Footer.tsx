@@ -128,7 +128,7 @@ export const Footer = () => {
 
         {/* Bottom */}
         <div className="border-t border-deep-blue-light/20 mt-12 pt-8 text-center text-primary-foreground/50 text-sm">
-          <p>© 2025 OrangeBlue. Все права защищены.</p>
+          <p>© 2025 orangeblue. Все права защищены.</p>
         </div>
       </div>
     </footer>;
