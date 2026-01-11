@@ -208,7 +208,7 @@ const Index = () => {
         }} viewport={{
           once: true
         }} className="text-center max-w-3xl mx-auto">
-            <h2 className="font-heading font-bold text-3xl md:text-5xl mb-6 text-slate-800 pl-0 pt-[10px]">
+            <h2 className="font-heading font-bold text-3xl md:text-5xl mb-6 text-slate-800 pl-0 pt-[10px] py-[15px]">
               Готовы к приключениям?
             </h2>
             <p className="text-xl mb-10 text-slate-700">
