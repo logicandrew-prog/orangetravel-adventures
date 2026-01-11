@@ -94,7 +94,7 @@ export const Footer = () => {
             <h4 className="font-heading font-semibold text-lg mb-6">Контакты</h4>
             <ul className="space-y-4">
               <li className="flex items-center gap-3">
-                <MapPin size={18} className="text-secondary flex-shrink-0" />
+                <MapPin size={18} className="flex-shrink-0 text-[#ff8c00]" />
                 <span className="text-primary-foreground/70">Москва</span>
               </li>
               <li className="flex items-center gap-3">
