@@ -156,7 +156,7 @@ const Tips = () => {
       </section>
 
       {/* Important Notice */}
-      <section className="py-16 bg-deep-blue">
+      <section className="py-16 bg-deep-blue bg-cyan-200">
         <div className="container mx-auto px-4">
           <motion.div initial={{
           opacity: 0,
@@ -166,7 +166,7 @@ const Tips = () => {
           y: 0
         }} viewport={{
           once: true
-        }} className="bg-deep-blue-light/30 rounded-2xl p-8 text-center">
+        }} className="bg-deep-blue-light/30 rounded-2xl p-8 text-center bg-cyan-300">
             <Camera className="w-12 h-12 text-secondary mx-auto mb-4" />
             <h3 className="font-heading font-bold text-2xl text-primary-foreground mb-4">
               Главный совет
