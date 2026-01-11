@@ -167,11 +167,11 @@ const Tips = () => {
         }} viewport={{
           once: true
         }} className="bg-deep-blue-light/30 rounded-2xl p-8 text-center bg-cyan-300">
-            <Camera className="w-12 h-12 text-secondary mx-auto mb-4" />
-            <h3 className="font-heading font-bold text-2xl text-primary-foreground mb-4">
+            <Camera className="w-12 h-12 mx-auto mb-4 text-[#ff8c00]" />
+            <h3 className="font-heading font-bold text-2xl mb-4 text-slate-800">
               Главный совет
             </h3>
-            <p className="text-lg text-primary-foreground/80 max-w-2xl mx-auto">
+            <p className="text-lg max-w-2xl mx-auto text-slate-700">
               Россия — огромная и разнообразная страна. Каждый регион уникален. 
               Мы поможем подготовиться к путешествию и расскажем обо всех нюансах 
               при планировании вашего тура.
