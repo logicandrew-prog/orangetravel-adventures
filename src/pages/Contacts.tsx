@@ -21,7 +21,7 @@ const contactInfo = [{
 const Contacts = () => {
   return <Layout>
       {/* Hero */}
-      <section className="py-20 bg-deep-blue">
+      <section className="py-20 bg-deep-blue bg-cyan-200">
         <div className="container mx-auto px-4">
           <motion.div initial={{
           opacity: 0,
@@ -30,10 +30,10 @@ const Contacts = () => {
           opacity: 1,
           y: 0
         }} className="text-center">
-            <h1 className="font-heading font-bold text-4xl md:text-5xl text-primary-foreground mb-4">
+            <h1 className="font-heading font-bold text-4xl md:text-5xl mb-4 text-stone-800">
               Свяжитесь с нами
             </h1>
-            <p className="text-xl text-primary-foreground/80 max-w-2xl mx-auto">
+            <p className="text-xl max-w-2xl mx-auto text-slate-700">
               Мы всегда рады помочь с планированием вашего путешествия
             </p>
           </motion.div>
