@@ -95,7 +95,7 @@ export const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-center gap-3">
                 <MapPin size={18} className="text-secondary flex-shrink-0" />
-                <span className="text-primary-foreground/70">Москва, ул. Тверская, 1</span>
+                <span className="text-primary-foreground/70">Москва</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-secondary flex-shrink-0" />
