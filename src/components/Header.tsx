@@ -21,17 +21,17 @@ export const Header = () => {
   const location = useLocation();
   return <header className="fixed top-0 left-0 right-0 z-50 bg-deep-blue/95 backdrop-blur-md border-b border-deep-blue-light/20">
       <div className="container mx-auto px-4">
-        <div className="h-20 mt-[10px] mb-[10px] flex items-center justify-between">
+        <div className="h-20 flex items-center justify-between mt-[15px] mb-[15px]">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-1 group">
             <div className="relative flex items-baseline">
-              <span className="font-heading font-bold text-primary-foreground text-4xl">
+              <span className="font-heading font-bold text-5xl text-[#ff8c00]">
                 orange
               </span>
-              <span className="font-heading font-bold text-[#ff8c00] text-4xl">
+              <span className="font-heading font-bold text-5xl text-primary-foreground">
                 blue
               </span>
-              <span className="font-script text-cream-travel ml-2 text-pink-600 text-2xl font-semibold">
+              <span className="font-script text-cream-travel ml-2 text-2xl font-semibold text-sky-300">
                 Travel
               </span>
               <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300" />
