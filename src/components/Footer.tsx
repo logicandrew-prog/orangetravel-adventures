@@ -7,10 +7,10 @@ export const Footer = () => {
           {/* Brand */}
           <div>
             <Link to="/" className="inline-block mb-6">
-              <span className="text-2xl font-heading font-bold text-primary-foreground">
+              <span className="text-2xl font-heading font-bold text-[#ff8c00]">
                 orange
               </span>
-              <span className="text-2xl font-heading font-bold text-[#ff8c00]">
+              <span className="text-2xl font-heading font-bold text-primary-foreground">
                 blue
               </span>
             </Link>
