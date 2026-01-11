@@ -119,7 +119,7 @@ const Contacts = () => {
 
       {/* Map placeholder */}
       <section className="h-96 relative bg-cyan-100">
-        <div className="absolute inset-0 flex items-center justify-center bg-cyan-100 opacity-100 rounded-sm shadow-inner border-8 border-double border-[#ff8c00]">
+        <div className="absolute inset-0 flex items-center justify-center bg-cyan-100 opacity-100 rounded-sm shadow-inner border-[#ff8c00] border-none border-0">
           <div className="text-center">
             <MapPin className="w-12 h-12 mx-auto mb-4 text-[#ff8c00]" />
             <p className="text-muted-foreground">
