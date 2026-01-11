@@ -208,10 +208,10 @@ const Index = () => {
         }} viewport={{
           once: true
         }} className="text-center max-w-3xl mx-auto">
-            <h2 className="font-heading font-bold text-3xl md:text-5xl text-primary-foreground mb-6">
+            <h2 className="font-heading font-bold text-3xl md:text-5xl mb-6 text-slate-800">
               Готовы к приключениям?
             </h2>
-            <p className="text-xl text-primary-foreground/80 mb-10">
+            <p className="text-xl mb-10 text-slate-700">
               Оставьте заявку, и мы подберём идеальный тур специально для вас. 
               Бесплатная консультация.
             </p>
