@@ -28,11 +28,11 @@ export const Header = () => {
               <span className="text-2xl font-heading font-bold text-primary-foreground">
                 orange
               </span>
-              <span className="text-2xl font-heading font-bold text-secondary">
+              <span className="text-2xl font-heading font-bold text-[#ff8c00]">
                 blue
               </span>
-              <span className="font-script text-cream-travel ml-2 text-2xl font-semibold text-pink-600">
-                Travel
+              <span className="font-script text-cream-travel ml-2 text-[vibrant-orange-light] text-slate-300">
+                travel
               </span>
               <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300" />
             </div>
