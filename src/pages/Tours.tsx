@@ -48,7 +48,7 @@ const destinations = [{
 const Tours = () => {
   return <Layout>
       {/* Hero */}
-      <section className="py-20 bg-deep-blue text-muted bg-[#ff8c00]">
+      <section className="py-20 bg-deep-blue bg-cyan-200 text-primary">
         <div className="container mx-auto px-4">
           <motion.div initial={{
           opacity: 0,
@@ -57,10 +57,10 @@ const Tours = () => {
           opacity: 1,
           y: 0
         }} className="text-center">
-            <h1 className="font-heading font-bold text-4xl md:text-5xl text-primary-foreground mb-4">
+            <h1 className="font-heading font-bold text-4xl md:text-5xl mb-4 text-slate-800">
               Выберите ваше путешествие
             </h1>
-            <p className="text-xl text-primary-foreground/80 max-w-2xl mx-auto">
+            <p className="text-xl max-w-2xl mx-auto text-slate-700">
               От культурных столиц до дикой природы — откройте Россию с нами
             </p>
           </motion.div>
