@@ -20,13 +20,16 @@ export const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 group">
-            <div className="relative">
+          <Link to="/" className="flex items-center gap-1 group">
+            <div className="relative flex items-baseline">
               <span className="text-2xl font-heading font-bold text-primary-foreground">
                 orange
               </span>
               <span className="text-2xl font-heading font-bold text-secondary">
                 blue
+              </span>
+              <span className="text-3xl font-script text-cream-travel ml-2">
+                travel
               </span>
               <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300" />
             </div>
