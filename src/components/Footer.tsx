@@ -1,9 +1,7 @@
 import { Link } from "react-router-dom";
 import { MapPin, Phone, Mail, Instagram, Facebook, Send } from "lucide-react";
-
 export const Footer = () => {
-  return (
-    <footer className="bg-deep-blue-dark text-primary-foreground">
+  return <footer className="bg-deep-blue-dark text-primary-foreground">
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
@@ -12,7 +10,7 @@ export const Footer = () => {
               <span className="text-2xl font-heading font-bold text-primary-foreground">
                 orange
               </span>
-              <span className="text-2xl font-heading font-bold text-secondary">
+              <span className="text-2xl font-heading font-bold text-[#ff8c00]">
                 blue
               </span>
             </Link>
@@ -115,22 +113,13 @@ export const Footer = () => {
 
             {/* Social */}
             <div className="flex gap-4 mt-6">
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full bg-deep-blue-light/50 flex items-center justify-center text-primary-foreground/70 hover:bg-secondary hover:text-secondary-foreground transition-all"
-              >
+              <a href="#" className="w-10 h-10 rounded-full bg-deep-blue-light/50 flex items-center justify-center text-primary-foreground/70 hover:bg-secondary hover:text-secondary-foreground transition-all">
                 <Instagram size={18} />
               </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full bg-deep-blue-light/50 flex items-center justify-center text-primary-foreground/70 hover:bg-secondary hover:text-secondary-foreground transition-all"
-              >
+              <a href="#" className="w-10 h-10 rounded-full bg-deep-blue-light/50 flex items-center justify-center text-primary-foreground/70 hover:bg-secondary hover:text-secondary-foreground transition-all">
                 <Facebook size={18} />
               </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full bg-deep-blue-light/50 flex items-center justify-center text-primary-foreground/70 hover:bg-secondary hover:text-secondary-foreground transition-all"
-              >
+              <a href="#" className="w-10 h-10 rounded-full bg-deep-blue-light/50 flex items-center justify-center text-primary-foreground/70 hover:bg-secondary hover:text-secondary-foreground transition-all">
                 <Send size={18} />
               </a>
             </div>
@@ -142,6 +131,5 @@ export const Footer = () => {
           <p>© 2025 OrangeBlue. Все права защищены.</p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
