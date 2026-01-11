@@ -16,6 +16,7 @@ export default {
       fontFamily: {
         sans: ['Open Sans', 'sans-serif'],
         heading: ['Montserrat', 'sans-serif'],
+        script: ['Great Vibes', 'cursive'],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -63,6 +64,7 @@ export default {
         },
         "warm-white": "hsl(var(--warm-white))",
         "ice-blue": "hsl(var(--ice-blue))",
+        "cream-travel": "hsl(var(--cream-travel))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",

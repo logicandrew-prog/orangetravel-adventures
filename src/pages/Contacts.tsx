@@ -1,20 +1,14 @@
 import { motion } from "framer-motion";
 import { Layout } from "@/components/Layout";
 import { BookingForm } from "@/components/BookingForm";
-import { MapPin, Phone, Mail, Clock, MessageCircle } from "lucide-react";
+import { MapPin, Mail, Clock, MessageCircle } from "lucide-react";
 
 const contactInfo = [
   {
     icon: MapPin,
     title: "Адрес",
-    value: "Москва, ул. Тверская, 1",
+    value: "Москва",
     href: null,
-  },
-  {
-    icon: Phone,
-    title: "Телефон",
-    value: "+7 (495) 123-45-67",
-    href: "tel:+74951234567",
   },
   {
     icon: Mail,
@@ -111,12 +105,6 @@ const Contacts = () => {
                   Напишите нам в мессенджер для оперативного ответа
                 </p>
                 <div className="flex gap-4">
-                  <a
-                    href="#"
-                    className="px-6 py-3 bg-deep-blue text-primary-foreground rounded-lg font-medium hover:bg-deep-blue-light transition-colors"
-                  >
-                    WhatsApp
-                  </a>
                   <a
                     href="#"
                     className="px-6 py-3 bg-deep-blue text-primary-foreground rounded-lg font-medium hover:bg-deep-blue-light transition-colors"
