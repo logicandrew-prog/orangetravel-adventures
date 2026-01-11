@@ -104,7 +104,7 @@ export const Footer = () => {
                 </a>
               </li>
               <li className="flex items-center gap-3">
-                <Mail size={18} className="text-secondary flex-shrink-0" />
+                <Mail size={18} className="flex-shrink-0 text-[#ff8c00]" />
                 <a href="mailto:info@orangeblue.ru" className="text-primary-foreground/70 hover:text-secondary transition-colors">
                   info@orangeblue.ru
                 </a>
