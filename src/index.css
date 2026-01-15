@@ -46,6 +46,7 @@
     --cream-travel: 27 60% 90%;
     --warm-white: 40 30% 98%;
     --ice-blue: 200 40% 96%;
+    --content-bg: 178 91% 89%;
 
     /* Gradients */
     --gradient-hero: linear-gradient(135deg, hsl(212 80% 20%) 0%, hsl(212 70% 30%) 50%, hsl(38 100% 50%) 100%);

@@ -65,6 +65,7 @@ export default {
         "warm-white": "hsl(var(--warm-white))",
         "ice-blue": "hsl(var(--ice-blue))",
         "cream-travel": "hsl(var(--cream-travel))",
+        "content-bg": "hsl(var(--content-bg))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",

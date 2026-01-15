@@ -46,7 +46,7 @@ const regionTips = [{
 const Tips = () => {
   return <Layout>
       {/* Hero */}
-      <section className="py-20 bg-deep-blue bg-[#cdfafe]">
+      <section className="py-20 bg-content-bg">
         <div className="container mx-auto px-4">
           <motion.div initial={{
           opacity: 0,
@@ -156,7 +156,7 @@ const Tips = () => {
       </section>
 
       {/* Important Notice */}
-      <section className="py-16 bg-deep-blue bg-[#cdfafe]">
+      <section className="py-16 bg-content-bg">
         <div className="container mx-auto px-4">
           <motion.div initial={{
           opacity: 0,
@@ -166,7 +166,7 @@ const Tips = () => {
           y: 0
         }} viewport={{
           once: true
-        }} className="bg-deep-blue-light/30 rounded-2xl p-8 text-center bg-[#a6f3fc]">
+        }} className="bg-cyan-200 rounded-2xl p-8 text-center">
             <Camera className="w-12 h-12 mx-auto mb-4 text-[#ff8c00]" />
             <h3 className="font-heading font-bold text-2xl mb-4 text-slate-800">
               Главный совет
