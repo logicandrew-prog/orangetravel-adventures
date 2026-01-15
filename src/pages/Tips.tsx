@@ -166,7 +166,7 @@ const Tips = () => {
           y: 0
         }} viewport={{
           once: true
-        }} className="bg-deep-blue-light/30 rounded-2xl p-8 text-center bg-[#a3d7e0]">
+        }} className="bg-deep-blue-light/30 rounded-2xl p-8 text-center bg-[#a6f3fc]">
             <Camera className="w-12 h-12 mx-auto mb-4 text-[#ff8c00]" />
             <h3 className="font-heading font-bold text-2xl mb-4 text-slate-800">
               Главный совет
