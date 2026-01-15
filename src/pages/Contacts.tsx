@@ -21,7 +21,7 @@ const contactInfo = [{
 const Contacts = () => {
   return <Layout>
       {/* Hero */}
-      <section className="py-20 bg-deep-blue bg-cyan-200">
+      <section className="py-20 bg-content-bg">
         <div className="container mx-auto px-4">
           <motion.div initial={{
           opacity: 0,
@@ -118,10 +118,10 @@ const Contacts = () => {
       </section>
 
       {/* Map placeholder */}
-      <section className="h-96 relative bg-cyan-100">
-        <div className="absolute inset-0 flex items-center justify-center bg-cyan-100 opacity-100 rounded-sm shadow-inner border-[#ff8c00] border-none border-0">
+      <section className="h-96 relative bg-content-bg">
+        <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center">
-            <MapPin className="w-12 h-12 mx-auto mb-4 text-[#ff8c00]" />
+            <MapPin className="w-12 h-12 mx-auto mb-4 text-secondary" />
             <p className="text-muted-foreground">
               Здесь будет интерактивная карта
             </p>

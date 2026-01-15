@@ -48,7 +48,7 @@ const destinations = [{
 const Tours = () => {
   return <Layout>
       {/* Hero */}
-      <section className="py-20 bg-deep-blue text-primary pt-[80px] pb-[80px] bg-[#cdfafe]">
+      <section className="py-20 bg-content-bg pt-[80px] pb-[80px]">
         <div className="container mx-auto px-4">
           <motion.div initial={{
           opacity: 0,
