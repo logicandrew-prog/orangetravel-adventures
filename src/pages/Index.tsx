@@ -193,12 +193,12 @@ const Index = () => {
 
       {/* CTA Section */}
       <section className="py-24 bg-content-bg relative overflow-hidden">
-        <div className="absolute inset-0 bg-content-bg">
+        <div className="absolute inset-0 bg-content-bg opacity-100 shadow-none">
           <div className="absolute top-0 left-0 w-96 h-96 bg-secondary/20 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2" />
           <div className="absolute bottom-0 right-0 w-96 h-96 bg-secondary/20 rounded-full blur-3xl translate-x-1/2 translate-y-1/2" />
         </div>
 
-        <div className="container mx-auto px-4 relative z-10">
+        <div className="container mx-auto px-4 relative z-10 bg-cyan-200">
           <motion.div initial={{
           opacity: 0,
           y: 20
